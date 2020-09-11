@@ -204,7 +204,7 @@
         <!--Home View Controller-->
         <scene sceneID="Xna-wz-Jax">
             <objects>
-                <viewController id="Vuh-d1-Mt0" customClass="HomeViewController" customModule="LoginMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="Vuh-d1-Mt0" customClass="HomeViewController" customModule="LoginMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q9R-ed-frq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

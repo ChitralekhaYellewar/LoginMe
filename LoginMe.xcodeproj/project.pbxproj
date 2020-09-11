@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		B8908DD1250B624C0070FBEB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8908DD0250B624C0070FBEB /* SignUpViewController.swift */; };
 		B8908DD3250B625B0070FBEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8908DD2250B625B0070FBEB /* LoginViewController.swift */; };
 		B8908DD5250B62640070FBEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8908DD4250B62640070FBEB /* HomeViewController.swift */; };
+		B8970410250BC183000EC8FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B897040F250BC183000EC8FE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B8908DD0250B624C0070FBEB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B8908DD2250B625B0070FBEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8908DD4250B62640070FBEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B897040F250BC183000EC8FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DADDF1EDB5B363470C7A0DA9 /* Pods-LoginMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMe.debug.xcconfig"; path = "Target Support Files/Pods-LoginMe/Pods-LoginMe.debug.xcconfig"; sourceTree = "<group>"; };
 		DF79B833AE8644A12EEDDE24 /* Pods-LoginMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMe.release.xcconfig"; path = "Target Support Files/Pods-LoginMe/Pods-LoginMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				B867F5F3250B718100500466 /* Utilities.swift */,
+				B897040F250BC183000EC8FE /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -119,7 +122,6 @@
 				DADDF1EDB5B363470C7A0DA9 /* Pods-LoginMe.debug.xcconfig */,
 				DF79B833AE8644A12EEDDE24 /* Pods-LoginMe.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,6 +248,7 @@
 				B8908DD3250B625B0070FBEB /* LoginViewController.swift in Sources */,
 				B8908DBF250B61F40070FBEB /* SceneDelegate.swift in Sources */,
 				B8908DD5250B62640070FBEB /* HomeViewController.swift in Sources */,
+				B8970410250BC183000EC8FE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

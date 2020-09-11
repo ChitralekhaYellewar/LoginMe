@@ -74,13 +74,14 @@ class SignUpViewController: UIViewController {
                     let firebaseDB = Firestore.firestore()
                     firebaseDB.collection("Users").addDocument(data: ["FirstName": firstName, "LastName" : lastName, "uid" : result!.user.uid ]) { (error) in
                         if error != nil {
-                            print(error?.localizedDescription)
+                            print(error!.localizedDescription)
                         }
                     }
+                    // transition to home screen
+                    self.transitionToHome()
                 }
             }
         }
-        // transition to home screen
     }
     
     func showError(_ message: String) {
@@ -88,14 +89,11 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 1
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func transitionToHome() {
+        let homeViewController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: Constants.storyboard.HomeViewController) as? HomeViewController
+        
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
     }
-    */
 
 }
