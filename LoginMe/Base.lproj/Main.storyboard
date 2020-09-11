@@ -70,12 +70,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="luJ-BZ-JL2">
                                 <rect key="frame" x="40" y="84" width="334" height="230.5"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wux-jX-GZr">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wux-jX-GZr">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LastName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oqy-nS-LNS">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oqy-nS-LNS">
                                         <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -113,10 +113,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="RNX-GI-ElP"/>
                     <connections>
+                        <outlet property="emailTextField" destination="wux-jX-GZr" id="CgI-u3-IiM"/>
                         <outlet property="errorLabel" destination="K7E-tB-I6w" id="NOk-Vi-2xy"/>
-                        <outlet property="firstnameTextField" destination="wux-jX-GZr" id="y4q-hZ-vfz"/>
-                        <outlet property="lastNameTextField" destination="Oqy-nS-LNS" id="tNv-tI-3vD"/>
                         <outlet property="loginButton" destination="cQQ-Q8-COj" id="0Ak-mH-Wl1"/>
+                        <outlet property="passwordTextField" destination="Oqy-nS-LNS" id="ddb-oE-MKT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppw-he-mwG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

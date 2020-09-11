@@ -44,13 +44,13 @@ class SignUpViewController: UIViewController {
             emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
             
-            return "Please fill all the fields"
+            return Constants.Fields.Error
         }
         
         // check if the password is secure
         let cleanPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         if Utilities.isPasswordValid(cleanPassword) == false {
-            return "Please make sure your password is atleast 8 characters, contains a special character and a number"
+            return Constants.Password.Error
         }
         
         return nil
