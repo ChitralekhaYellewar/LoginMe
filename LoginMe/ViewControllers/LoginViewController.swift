@@ -18,12 +18,19 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpElements()
         // Do any additional setup after loading the view.
     }
     
+    func setUpElements() {
+        Utilities.styleTextField(firstnameTextField)
+        Utilities.styleTextField(lastNameTextField)
+        
+        Utilities.styleHollowButton(loginButton)
+    }
     
     @IBAction func loginTapped(_ sender: UIButton) {
+        
     }
     
     /*

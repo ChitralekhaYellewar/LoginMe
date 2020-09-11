@@ -1,0 +1,6 @@
+framework module Pods_LoginMe {
+  umbrella header "Pods-LoginMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
