@@ -20,6 +20,7 @@
 		B8908DD3250B625B0070FBEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8908DD2250B625B0070FBEB /* LoginViewController.swift */; };
 		B8908DD5250B62640070FBEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8908DD4250B62640070FBEB /* HomeViewController.swift */; };
 		B8970410250BC183000EC8FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B897040F250BC183000EC8FE /* Constants.swift */; };
+		B8970413250BD119000EC8FE /* bridge.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8970412250BD119000EC8FE /* bridge.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B8908DD2250B625B0070FBEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8908DD4250B62640070FBEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B897040F250BC183000EC8FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8970412250BD119000EC8FE /* bridge.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bridge.mp4; sourceTree = "<group>"; };
 		DADDF1EDB5B363470C7A0DA9 /* Pods-LoginMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMe.debug.xcconfig"; path = "Target Support Files/Pods-LoginMe/Pods-LoginMe.debug.xcconfig"; sourceTree = "<group>"; };
 		DF79B833AE8644A12EEDDE24 /* Pods-LoginMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMe.release.xcconfig"; path = "Target Support Files/Pods-LoginMe/Pods-LoginMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 		B8908DBB250B61F40070FBEB /* LoginMe */ = {
 			isa = PBXGroup;
 			children = (
+				B8970411250BCFC6000EC8FE /* Media */,
 				B867F5F2250B717500500466 /* Helper */,
 				B8908DD6250B62700070FBEB /* ViewControllers */,
 				B8908DBC250B61F40070FBEB /* AppDelegate.swift */,
@@ -114,6 +117,14 @@
 				B8908DD4250B62640070FBEB /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B8970411250BCFC6000EC8FE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B8970412250BD119000EC8FE /* bridge.mp4 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		BE869A39C04E284AD6458ECE /* Pods */ = {
@@ -185,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8970413250BD119000EC8FE /* bridge.mp4 in Resources */,
 				B8908DC9250B61F50070FBEB /* LaunchScreen.storyboard in Resources */,
 				B867F5F6250B892A00500466 /* GoogleService-Info.plist in Resources */,
 				B8908DC6250B61F50070FBEB /* Assets.xcassets in Resources */,
